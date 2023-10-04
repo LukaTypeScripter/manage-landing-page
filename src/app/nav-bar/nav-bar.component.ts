@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,HostListener  } from '@angular/core';
 
 @Component({
   selector: 'app-nav-bar',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
+  isModalOpen: boolean = false;
+
+  toggleModal() {
+    this.isModalOpen = !this.isModalOpen;
+  }
 
 }

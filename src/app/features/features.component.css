@@ -1,0 +1,74 @@
+
+
+.features {
+    position: relative;
+    padding: 3rem 0 1rem;
+}
+.features::before {
+    content: "";
+    position: absolute;
+    background: url(../../images/bg-tablet-pattern.svg) no-repeat;
+    background-position: top right -20.4rem;
+    background-size: 90%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-top: -33.8rem;
+}
+.container {
+    width: 100%;
+    max-width: 111rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    height: inherit;
+}
+.feature__text {
+    text-align: center;
+    padding-bottom: 6rem;
+}
+.feature__text h1 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    color: #242d52;
+}
+.feature__text p {
+    line-height: 1.8;
+    color: #9095a7;
+    padding-right: 2rem;
+}
+@media screen and (max-width: 991px) {
+    .feture__list {
+        margin: 0 -2.4rem 0 -1rem;
+    }
+}
+
+.feture__item {
+    padding-bottom: 5.2rem;
+}
+.heading {
+    display: flex;
+    background: #fff0ec;
+    border-radius: 2.5rem 0 0 2.5rem;
+}
+.feature__number {
+    width: 6.7rem;
+    height: 3.9rem;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border-radius: 2.5rem;
+    border: 1px solid #f25f3a;
+    background: #f25f3a;
+    color: #fafafa;
+}
+.benefit {
+    padding-left: 1.8rem;
+    padding-top: 0.6rem;
+    max-width:100% ;
+}
+.details {
+    padding-top: 0.8rem;
+    line-height: 1.8;
+    color: #9095a7;
+}
